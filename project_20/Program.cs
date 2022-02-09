@@ -16,7 +16,7 @@ namespace project20
             int mode = InputNumber();
 
             if (mode == 1)
-                Console.WriteLine($"В первой координатной четверти может быть диапазон от x0,y0 до x(inf), y(inf)");
+                Console.WriteLine("В первой координатной четверти может быть диапазон от x0,y0 до x(inf), y(inf)");
             if (mode == 2)
                 Console.WriteLine("Во второй координатной четверти может быть диапазон от x0,y0 до -x(inf), y(inf)");
             if (mode == 3)
