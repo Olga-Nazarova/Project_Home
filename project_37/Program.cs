@@ -43,7 +43,7 @@ namespace project_37
                 if (array[i] > minDiapazon && array[i] < maxDiapazon)
                     elements += 1;
             }
-            Console.WriteLine($"Если подразумевается, что нужно найти внутри массива элементы, которые больше 10 и меньше 99, то их количество - {elements}");
+            Console.WriteLine($"Если подразумевается, что нужно найти внутри массива значения, которые больше 10 и меньше 99, то их количество - {elements}");
 
         }
     }
