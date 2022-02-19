@@ -24,7 +24,7 @@ namespace project_44
             if (k1 == k2)
                 Console.WriteLine("Нет точек пересечения");
             else
-            Console.WriteLine($"Координаты точки пересечения X0 = {(b2 - b1) / (k1 - k2)}, Y0 ={k1 * (b2 - b1) / (k1 - k2) + b1}");
+            Console.WriteLine($"Координаты точки пересечения x = {(b2 - b1) / (k1 - k2)}, y ={k1 * (b2 - b1) / (k1 - k2) + b1}");
 
             
         }
