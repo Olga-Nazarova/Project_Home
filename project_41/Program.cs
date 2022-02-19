@@ -23,10 +23,10 @@ namespace project_41
             Console.WriteLine(value3);
 
             if ((value1 + value2 > value3) && (value2 + value3 > value1) && (value1 + value3 > value2))
-            {
-                double p = (value1 + value2 + value3) / 2;
+            
+            
                 Console.WriteLine("Это треугольник");
-            }
+           
             else
             
                 Console.WriteLine("Это не треугольник");

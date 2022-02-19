@@ -1,0 +1,19 @@
+﻿// Показать двумерный массив размером m×n заполненный вещественными числами
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace project_49
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+           
+            
+
+        }
+    }
+}
