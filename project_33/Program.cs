@@ -13,19 +13,6 @@ namespace project_33
     {
         static void Main(string[] args)
         {
-            //int[] array = new int[12];
-            //int summ = 0;
-
-            //for (int i = 0; i < array.Length; i++)
-            //{
-            //    array[i] = new Random().Next(0, 10);  
-            //    foreach (int j in array)
-            //        Console.Write($"{j} ");
-            //    summ += array[i];
-            //    Console.WriteLine($"Сумма чисел равна {summ}");                                                                  
-            //}
-
-            //Console.ReadKey();
 
             int[] array = new int[12];
             int checkRandom = 0;

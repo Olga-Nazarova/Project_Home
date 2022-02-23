@@ -29,7 +29,6 @@ namespace project_46
                 string element = i;
                 element = element.Replace("(", "");
                 element = element.Replace(")", "");
-                //Console.WriteLine(element);
                 numbers.Add(double.Parse(element));
             }
 
