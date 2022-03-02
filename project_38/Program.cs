@@ -11,7 +11,7 @@ namespace project_38
     {
         static void Main(string[] args)
         {
-            int[] array = new int[20];
+            int[] array = new int[6];
             Random rnd = new Random();
             int nechet = 0;
             
@@ -25,10 +25,12 @@ namespace project_38
 
             Console.WriteLine();
 
-            foreach (int i in array)
-               if (i % 2 != 0)
-                   nechet += i;
-            Console.WriteLine($"Cумма нечетных чисел равна: {nechet}");
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (i % 2 != 0)
+                    nechet += array[i];
+            }
+            Console.WriteLine($"Cумма чисел на нечетных позициях равна: {nechet}");
         }
     }
 }

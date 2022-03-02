@@ -19,7 +19,7 @@ namespace project_57
             PrintArray(array);
 
 
-            SeartArray(array);
+            SortArray(array);
             PrintArray(array);
         }
 
@@ -45,32 +45,19 @@ namespace project_57
                 }
             }
         }
-      
-        private static void SeartArray(int[,] array)
+
+        private static void SortArray(int[,] array)
         {
+            int[] temp = new int[array.GetLength(0)];
             for (int i = 0; i < array.GetLength(0); i++)
             {
                 for (int j = 0; j < array.GetLength(1); j++)
-                {
-                    int temp = 0;
-                    for (int k = 0; k < array.GetLength(1); k++)
-                    {
-                        int count = k++;
-                        if(count <= array.GetLength(1))
-                            Console.WriteLine(array[i, k]);
-                            if (array[i, k] < array[i, count])
-                                temp = array[i, count];
-                    }
-                    //array[i, j] = temp;
-                    //if (j+1 < array.GetLength(1))
-                    //    if (array[i, j] < array[i, j + 1])
-                    //    {
-                    //        int temp = array[i, j + 1];
-                    //        array[i, j + 1] = array[i, j];
-                    //        array[i, j] = temp;
-                    //    }
-                }
-            }                       
+                    temp[j] = array[i, j];
+                Array.Sort(temp);
+                Array.Reverse(temp);
+                for (int k = 0; k < array.GetLength(1); k++)
+                    array[i, k] = temp[k];
+            }
         }
 
         private static int CheckInputIsNumber(string text)

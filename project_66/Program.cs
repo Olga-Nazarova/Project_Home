@@ -11,6 +11,16 @@ namespace project_66
     {
         static void Main(string[] args)
         {
+            Func(1, 10);
+        }
+
+        private static void Func(int num1, int num2)
+        {
+            Console.Write($"{num1} ");
+            if (num1 < num2)
+                Func(num1+1, num2);
+            else
+                Console.ReadKey();
         }
     }
 }

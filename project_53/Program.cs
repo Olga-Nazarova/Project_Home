@@ -12,8 +12,8 @@ namespace project_53
         static void Main(string[] args)
         {
             Random rnd = new Random();
-            int m = rnd.Next(1, 5);
-            int n = rnd.Next(1, 5);
+            int m = rnd.Next(10, 25);
+            int n = rnd.Next(10, 25);
             int[,] array = new int[m, n];
 
             FillArray(array);
