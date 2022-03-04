@@ -11,7 +11,7 @@ namespace project_71
     {
         static void Main(string[] args)
         {
-            int m = 2;
+            int m = 3;
             int n = 3;
             Console.WriteLine(MegaAkker(m, n));
         }

@@ -16,8 +16,8 @@ namespace project_65
     {
         static void Main(string[] args)
         {
-            int n = CheckInputIsNumber("Введите число n: ");// row
-            int k = CheckInputIsNumber("Введите число k: ");// col
+            int n = CheckInputIsNumber("Введите количество строк для создания матрицы n: ");// row
+            int k = CheckInputIsNumber("Введите количество столбцов для создания матрицы k: ");// col
             int[,] array = new int[n, k];
 
             SnakeFill(n, k, array);                     

@@ -37,7 +37,9 @@ namespace project_64
         }
 
         private static void PrintTriangle(int[,] triangle)
+        {
 
+        }
 
     }
 }
